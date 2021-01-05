@@ -18,9 +18,7 @@ public class TC_02_Toast extends BaseTest{
 		ExcelInputData input=new ExcelInputData();
 		WebDriverWait wait=new WebDriverWait(gv.driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(gv.driver.findElementById("com.androidsample.generalstore:id/toolbar_title")));
-		
-		
-		
+	
 		gsp.tapButton();		
 		//String toastMesg=gv.driver.findElement(By.xpath("//android.widget.Toast[1]")).getAttribute("name");
 		String toastMesg=gsp.toastMessage();
