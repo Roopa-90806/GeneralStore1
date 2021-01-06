@@ -35,8 +35,9 @@ public class MoblieActionUtility {
 	}
 	/**
 	 * this method is used to drop the element to  specified position.
-	 * @param element
+	 * @param srcElement
 	 * @param driver
+	 * @param destElement
 	 */
 	
 	public static void dragAndDropElement(WebElement srcElement,AndroidDriver driver,WebElement destElement) {

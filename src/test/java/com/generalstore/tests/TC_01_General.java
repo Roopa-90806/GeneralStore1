@@ -30,8 +30,7 @@ public class TC_01_General extends BaseTest{
 		
 		//Step 5: Validating the title of the Product page
 		Assert.assertEquals(pg.readTitleFromExcel(),pg.titleText());
-		
-		
+	
 		
 	}
 	
